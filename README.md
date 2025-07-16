@@ -1,1 +1,3 @@
-# blogware
+# nerdNarratives
+
+Personal Tech blog website

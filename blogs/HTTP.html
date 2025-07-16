@@ -95,7 +95,7 @@
     <p class="mt-4 font-serif text-lg">Here's how HTTP works when you open a website like <strong>google.com</strong>:</p>
     <ul class="ml-4 list-decimal text-lg font-serif">
         <li class="my-3">You type the URL in your browser like <code>https://www.google.com</code>.</li>
-        <li class="my-3">Browser contacts DNS to server to translate it into an IP address.</li>
+        <li class="my-3">Browser contacts DNS server to translate it into an IP address.</li>
         <li class="my-3">Browser sends an HTTP request to the server at that IP.</li>
         <li class="my-3">Server sends back an HTTP response — containing the website content.</li>
         <li class="my-3">Done! The connection closes. Want a new page? → Back to step 3.</li>
@@ -166,9 +166,10 @@
     </h1>
     <ul class="ml-4 list-disc text-lg font-serif">
         <li class="my-3">Not secure - Sends data in plain text (hello hackers 👀).</li>
-        <li class="my-3">Anyone who handles it can read everything you wrote. That's how HTTP works — your data travels openly, without any protection.</li>
-        <li class="my-3">Now imagine locking that postcard in a box 🔒 before sending it.</li>
-        <li class="my-3">Only the person with the key can open and read it. That's HTTPS — it encrypts your data, so no one else can read it, even if they intercept it.</li>
+        <li class="my-3">Not mobile-friendly - Doesn't handle mobile networks well.</li>
+        <li class="my-3">Poor for sensitive data - No encryption = risky for logins, payments, etc.</li>
+        <li class="my-3">Uses more power - Long data transfers can be resource-heavy.</li>
+        <li class="my-3">One request at a time - Server can get stuck waiting on slow clients.</li>
     </ul>
 
     <hr class="mt-3" />
@@ -176,11 +177,12 @@
     <h1 class="text-4xl mt-[57px] mb-3 font-serif">
       HTTP vs HTTPS - What's the Real Difference?
     </h1>
-    <p class="mt-4 font-serif text-lg">Imagine you're writing a postcard (📬).<br>
-      Anyone who handles it can read everything you wrote. That's how HTTP works — your data travels openly, without any protection.<br><br>
-      Now imagine locking that postcard in a box 🔒 before sending it.<br>
-      Only the person with the key can open and read it. That's HTTPS — it encrypts your data, so no one else can read it, even if they intercept it.
-    </p>
+    <ul class="ml-4 list-disc text-lg font-serif">
+        <li class="my-3">HTTPS uses security tools called SSL and TLS to scramble (encrypt) your data before sending it.</li>
+        <li class="my-3">Only the website you're talking to can unscramble (decrypt) it.</li>
+        <li class="my-3">This ensures a private and secure connection between you and the website.</li>
+    </ul>
+    
 
     <!-- <hr class="mt-3" /> -->
 

@@ -52,7 +52,7 @@
     <p class="text-sm text-gray-500 font-serif mt-4">HTTP is the foundation of data communication on web.</p>
 
     <img
-      src="../blogs/assets/whatishttp/httpimg1.jpg"
+      src="../blogs/assets/whatishttp/httpimg1.png"
       class="w-full max-w-[400px] mx-auto my-5 rounded-xl"
       alt=""
     />
@@ -61,11 +61,16 @@
 
     <p class="text-lg font-serif mt-4">When you open a browser and visit a website like www.google.com - your browser knocks on Google's door and says:</p>
 
-    <p class="text-lg font-serif mt-4">=>“Hey! Can you show me the homepage, please?”</p>
+    <p class="text-lg font-serif mt-4">=>“Hey! Can you show me the homepage, please?”<br>
+      And Google, being the polite host it is, replies:<br>
+      =>“Sure! Here's the content you asked for.”
+    </p>
 
-    <p class="text-lg font-serif mt-4">And Google, being the polite host it is, replies:</p>
+    <!-- <p class="text-lg font-serif mt-4">=>“Hey! Can you show me the homepage, please?”</p>
 
-    <p class="text-lg font-serif mt-4">=>“Sure! Here's the content you asked for.”</p>
+    <p class="text-lg font-serif mt-4">And Google, being the polite host it is, replies:</p> -->
+
+    <!-- <p class="text-lg font-serif mt-4">=>“Sure! Here's the content you asked for.”</p> -->
 
     <p class="mt-4 font-serif text-lg">This whole conversation happens using HTTP. Think of HTTP as the language your browser uses to request data, and your server uses to respond.</p>
 
@@ -76,7 +81,7 @@
         <li class="font-serif text-lg my-3">🧠 Stateless - Every time you ask for something, it's like your server has zero memory of who you are. It's not cold, it's just emotionally unavailable.</li>
     </ul>
 
-    <hr class="mt-3" />
+    <!-- <hr class="mt-3" /> -->
 
     <h1 class="text-4xl mt-[57px] mb-3 font-serif">
       How HTTP Works (Step-by-step)
@@ -97,7 +102,7 @@
     </ul>
     <p class="mt-4 font-serif text-lg">Think of it like mailing a letter and getting a reply. There's no ongoing call or memory - every request stands alone.</p>
 
-    <hr class="mt-3" />
+    <!-- <hr class="mt-3" /> -->
 
     <h1 class="text-4xl mt-[57px] mb-3 font-serif">
       HTTP is Stateless - But Why Does Google Remember Me?
@@ -171,6 +176,41 @@
     <h1 class="text-4xl mt-[57px] mb-3 font-serif">
       HTTP vs HTTPS - What's the Real Difference?
     </h1>
+    <p class="mt-4 font-serif text-lg">Imagine you're writing a postcard (📬).<br>
+      Anyone who handles it can read everything you wrote. That's how HTTP works — your data travels openly, without any protection.<br><br>
+      Now imagine locking that postcard in a box 🔒 before sending it.<br>
+      Only the person with the key can open and read it. That's HTTPS — it encrypts your data, so no one else can read it, even if they intercept it.
+    </p>
+
+    <!-- <hr class="mt-3" /> -->
+
+    <h1 class="text-4xl mt-[57px] mb-3 font-serif">
+      How HTTPS works ?
+    </h1>
+    <ul class="ml-4 list-disc text-lg font-serif">
+        <li class="my-3">Secure Communication - Your data is locked while in transit.</li>
+        <li class="my-3">Data Integrity - It ensures your data isn’t changed or tampered with.</li>
+        <li class="my-3">Privacy - No one can snoop on your personal info.</li>
+        <li class="my-3">Performance - Modern HTTPS is fast and efficient.</li>
+        <li class="my-3">Trust - Browsers now mark non-HTTPS sites as “Not Secure.”</li>
+    </ul>
+
+    <!-- <hr class="mt-3" /> -->
+
+    <img class="rounded-xl my-6" src="../blogs/assets/whatishttp/devTip.png" alt="">
+
+    <hr class="mt-3" />
+
+    <h1 class="text-4xl mt-[57px] mb-3 font-serif">
+      Wrapping Up!
+    </h1>
+    <p>HTTP might seem like a complex technical detail, but it's the invisible backbone of the internet. Every time you open a browser, make an API call,or visit a website, 
+      HTTP is working silently behind the scenes.<br><br>
+      So, the next time you hear someone say, "this API is broken," you'll know it's likely just an HTTP request that didn't go as planned. 😉
+    </p>
+    
+    <hr class="my-10" />
+    <footer class="my-8">By Abbhinav</footer>
 
 </body>
 </html>
